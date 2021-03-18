@@ -9,7 +9,7 @@ const mobile_detailed_list = require("./mobiledetailed");
 
 app.get("/api/products/mobiles", async function (req, res) {
   try {
-    res.status(200).json(mobilelist);
+    res.status(200).json((mobilelist));
   } catch (err) {
     res.status(400).json({ message: "Please try again" });
   }
