@@ -1,10 +1,11 @@
+require("dotenv").config()
 const express = require("express");
 const app = express();
 const cors = require("cors");
 app.use(cors());
-
+const PORT = process.env.PORT || 3000;
 const mobilelist = require("./mobiles");
-const mobile_detailed_list = require("./model");
+const mobile_detailed_list = require("./mobiledetailed");
 
 app.get("/api/products/mobiles", async function (req, res) {
   try {
@@ -31,6 +32,6 @@ app.get("/api/products/mobiledetails/:pid", async function (req, res) {
     res.status(400).json({ message: "Please try again" });
   }
 });
-app.listen(3000, function () {
-  console.log(" Port on 3000");
+app.listen(PORT, function () {
+  console.log("Running on " + PORT);
 });
