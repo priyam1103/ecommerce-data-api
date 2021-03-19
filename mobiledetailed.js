@@ -4,8 +4,8 @@ module.exports = {
       id: 101,
       name: "New Apple iPhone 12 Mini",
       variants: ["128 GB", "256 GB"],
-      variant: {
-        "128 GB": {
+      variant: [
+        {
           rating: 4,
           ratings: 1104,
           mrp: "₹ 74,900.00",
@@ -13,7 +13,7 @@ module.exports = {
           yousave: "₹ 3,000.00 (4%)",
           emi: "EMI starts at ₹3,385. No Cost EMI available",
         },
-        "256 GB": {
+        {
           rating: 4,
           ratings: 1096,
           mrp: null,
@@ -21,7 +21,7 @@ module.exports = {
           yousave: null,
           emi: "EMI starts at ₹3,997. No Cost EMI available ",
         },
-      },
+      ],
       description: [
         "5.4-inch (13.7 cm diagonal) Super Retina XDR display",
         "Ceramic Shield, tougher than any smartphone glass",
@@ -32,23 +32,25 @@ module.exports = {
         "Supports MagSafe accessories for easy attach and faster wireless charging",
       ],
       color: ["Blue", "Black"],
-      images: {
-        Blue: [
-          "https://images-na.ssl-images-amazon.com/images/I/71sNNCTfMuL._SX679_.jpg",
-          "https://images-na.ssl-images-amazon.com/images/I/71REK%2BKBm%2BL._SX466_.jpg",
-        ],
-        Black: [
-          "https://m.media-amazon.com/images/I/71uuDYxn3XL._SX466_.jpg",
-          "https://m.media-amazon.com/images/I/71aR8gHZ6AL._SX466_.jpg",
-        ],
-      },
+      images: [
+        {
+          i1:
+            "https://images-na.ssl-images-amazon.com/images/I/71sNNCTfMuL._SX679_.jpg",
+          i2:
+            "https://images-na.ssl-images-amazon.com/images/I/71REK%2BKBm%2BL._SX466_.jpg",
+        },
+        {
+          i1: "https://m.media-amazon.com/images/I/71uuDYxn3XL._SX466_.jpg",
+          i2: "https://m.media-amazon.com/images/I/71aR8gHZ6AL._SX466_.jpg",
+        },
+      ],
     },
     {
       id: 102,
       name: "New Apple iPhone 11",
       variants: ["128 GB", "256 GB"],
-      variant: {
-        "128 GB": {
+      variant: [
+        {
           rating: 4,
           ratings: "18,179",
           mrp: null,
@@ -56,7 +58,7 @@ module.exports = {
           yousave: null,
           emi: "EMI starts at ₹2,820. No Cost EMI available",
         },
-        "256 GB": {
+        {
           rating: 4,
           ratings: "18,179",
           mrp: null,
@@ -64,7 +66,7 @@ module.exports = {
           yousave: null,
           emi: "EMI starts at ₹3,290. No Cost EMI available",
         },
-      },
+      ],
       description: [
         "6.1-inch (15.5 cm diagonal) Liquid Retina HD LCD display",
         "Water and dust resistant (2 meters for up to 30 minutes, IP68)",
@@ -75,23 +77,25 @@ module.exports = {
         "Fast-charge capable",
       ],
       color: ["Red", "Black"],
-      images: {
-        Red: [
-          "https://m.media-amazon.com/images/I/71hh7cpWadL._SX466_.jpg",
-          "https://m.media-amazon.com/images/I/717CFbCmS6L._SX466_.jpg",
-        ],
-        Black: [
-          "https://images-na.ssl-images-amazon.com/images/I/71i2XhHU3pL._SX466_.jpg",
-          "https://images-na.ssl-images-amazon.com/images/I/71Y5I3LK5CL._SX466_.jpg",
-        ],
-      },
+      images: [
+        {
+          i1: "https://m.media-amazon.com/images/I/71hh7cpWadL._SX466_.jpg",
+          i2: "https://m.media-amazon.com/images/I/717CFbCmS6L._SX466_.jpg",
+        },
+        {
+          i1:
+            "https://images-na.ssl-images-amazon.com/images/I/71i2XhHU3pL._SX466_.jpg",
+          i2:
+            "https://images-na.ssl-images-amazon.com/images/I/71Y5I3LK5CL._SX466_.jpg",
+        },
+      ],
     },
     {
       id: 103,
       name: "Redmi 9A | 2GHz Octa-core Helio G25 Processor",
       variants: ["2GB RAM 32GB Storage", "3GB RAM 32GB Storage"],
-      variant: {
-        "2GB RAM 32GB Storage": {
+      variant: [
+        {
           rating: 4,
           ratings: "18,356",
           mrp: "₹ 8,499.00",
@@ -99,7 +103,7 @@ module.exports = {
           yousave: "₹ 1,700.00 (20%)",
           emi: "EMI starts at ₹320. No Cost EMI available",
         },
-        "3GB RAM 32GB Storage": {
+        {
           rating: 4,
           ratings: "18,356",
           mrp: "₹ 9,499.00",
@@ -107,7 +111,7 @@ module.exports = {
           yousave: "₹ 1,999.00 (21%)",
           emi: "EMI starts at ₹353. No Cost EMI available",
         },
-      },
+      ],
       description: [
         "13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera",
         "16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio",
@@ -118,23 +122,24 @@ module.exports = {
         "Box also includes: Power adapter, USB cable, sim eject tool, warranty card and user guide",
       ],
       color: ["Midnight Black", "Nature Green"],
-      images: {
-        "Midnight Black": [
-          "https://m.media-amazon.com/images/I/71hDPUM7VPL._SX569_.jpg",
-          "https://m.media-amazon.com/images/I/81iIwG2sEnL._SX425_.jpg",
-        ],
-        "Nature Green": [
-          "https://m.media-amazon.com/images/I/71hDPUM7VPL._SX569_.jpg",
-          "https://images-na.ssl-images-amazon.com/images/I/81hyOE09RFL._SL1500_.jpg",
-        ],
-      },
+      images: [
+        {
+          i1: "https://m.media-amazon.com/images/I/71hDPUM7VPL._SX569_.jpg",
+          i2: "https://m.media-amazon.com/images/I/81iIwG2sEnL._SX425_.jpg",
+        },
+        {
+          i1: "https://m.media-amazon.com/images/I/71hDPUM7VPL._SX569_.jpg",
+          i2:
+            "https://images-na.ssl-images-amazon.com/images/I/81hyOE09RFL._SL1500_.jpg",
+        },
+      ],
     },
     {
       id: 104,
       name: "Redmi 9",
       variants: ["4GB RAM 128GB Storage", "4GB RAM 64GB Storage"],
-      variant: {
-        "4GB RAM 128GB Storage": {
+      variant: [
+        {
           rating: 4,
           ratings: "15,230",
           mrp: "₹ 10,999.00",
@@ -142,7 +147,7 @@ module.exports = {
           yousave: "₹ 1,000.00 (9%)",
           emi: "EMI starts at ₹471. No Cost EMI available",
         },
-        "4GB RAM 64GB Storage": {
+        {
           rating: 4,
           ratings: "15,230",
           mrp: "₹ 10,999.00",
@@ -150,7 +155,7 @@ module.exports = {
           yousave: "₹ 2,200.00 (20%)",
           emi: "EMI starts at ₹414. No Cost EMI available",
         },
-      },
+      ],
       description: [
         "Country Of Origin - India, China",
         "13+2MP Rear camera with AI Portrait, AI scene recognition, HDR, Pro mode | 5MP front facing camera",
@@ -162,23 +167,23 @@ module.exports = {
         "Box also includes: Power adapter, USB cable, SIM eject tool, Warranty card, User guide",
       ],
       color: ["Sky Blue", "Sporty Orange"],
-      images: {
-        "Sky Blue": [
-          "https://m.media-amazon.com/images/I/71A9Vo1BatL._SX425_.jpg",
-          "https://m.media-amazon.com/images/I/81cTPCIXsrL._SX425_.jpg",
-        ],
-        "Sporty Orange": [
-          "https://m.media-amazon.com/images/I/71A9Vo1BatL._SX425_.jpg",
-          "https://m.media-amazon.com/images/I/71snJRRLwPL._SY445_.jpg",
-        ],
-      },
+      images: [
+        {
+          i1: "https://m.media-amazon.com/images/I/71A9Vo1BatL._SX425_.jpg",
+          i2: "https://m.media-amazon.com/images/I/81cTPCIXsrL._SX425_.jpg",
+        },
+        {
+          i1: "https://m.media-amazon.com/images/I/71A9Vo1BatL._SX425_.jpg",
+          i2: "https://m.media-amazon.com/images/I/71snJRRLwPL._SY445_.jpg",
+        },
+      ],
     },
     {
       id: 105,
       name: "Samsung Galaxy M21",
       variants: ["4GB RAM 32GB Storage", "6GB RAM 128GB Storage"],
-      variant: {
-        "4GB RAM 64GB Storage": {
+      variant: [
+        {
           rating: 4,
           ratings: "96,654",
           mrp: null,
@@ -186,7 +191,7 @@ module.exports = {
           yousave: null,
           emi: "EMI starts at ₹659. No Cost EMI available",
         },
-        "6GB RAM 128GB Storage": {
+        {
           rating: 4,
           ratings: "96,654",
           mrp: "₹ 17,199.00",
@@ -194,7 +199,7 @@ module.exports = {
           yousave: "₹ 1,200.00 (7%)",
           emi: "EMI starts at ₹753. No Cost EMI available",
         },
-      },
+      ],
       description: [
         " Triple Camera Setup - 48MP (F2.0) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera and 20MP (F2.2) front facing Punch Hole Camera",
         "  6.4 - inch(16.21 centimeters) Super Amoled - Infinity U Cut Display, FHD + Resolution(2340 x 1080), 404 ppi pixel density and 16M color support",
@@ -204,18 +209,19 @@ module.exports = {
         " In case of any queries, kindly reach out to brand helpline number: 1800 - 407 - 267 - 864",
       ],
       color: ["Black", "Blue"],
-      images: {
-        Black: [
-          "https://m.media-amazon.com/images/I/71QLvGIAq5L._SY606_.jpg",
-          "https://m.media-amazon.com/images/I/61CDkyqPo2L._SY445_.jpg",
-        ],
-        Blue: [
-          "https://images-na.ssl-images-amazon.com/images/I/71dujTTJDZL._SY445_.jpg",
-          "https://images-na.ssl-images-amazon.com/images/I/61GxwAghY%2BL._SY445_.jpg",
-        ],
-      },
+      images: [
+        {
+          i1: "https://m.media-amazon.com/images/I/71QLvGIAq5L._SY606_.jpg",
+          i2: "https://m.media-amazon.com/images/I/61CDkyqPo2L._SY445_.jpg",
+        },
+        {
+          i1:
+            "https://images-na.ssl-images-amazon.com/images/I/71dujTTJDZL._SY445_.jpg",
+          i2:
+            "https://images-na.ssl-images-amazon.com/images/I/61GxwAghY%2BL._SY445_.jpg",
+        },
+      ],
     },
-    ],
-    pids:[101,102,103,104,105]
-  
+  ],
+  pids: [101, 102, 103, 104, 105],
 };
