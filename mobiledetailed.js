@@ -165,7 +165,7 @@ module.exports = {
         "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase",
         "Box also includes: Power adapter, USB cable, sim eject tool, warranty card and user guide",
       ],
-      color: ["Midnight Black", "Nature Green"],
+      color: ["Black", "Green"],
       images: [
         {
           i1: "https://m.media-amazon.com/images/I/71hDPUM7VPL._SX569_.jpg",
@@ -179,22 +179,22 @@ module.exports = {
       ],
       pids: [
         {
-          colour: "Midnight Black",
+          colour: "Black",
           variant: "2GB RAM 32GB Storage",
           pid: 9,
         },
         {
-          colour: "Nature Green",
+          colour: "Green",
           variant: "2GB RAM 32GB Storage",
           pid: 10,
         },
         {
-          colour: "Midnight Black",
+          colour: "Black",
           variant: "3GB RAM 32GB Storage",
           pid: 11,
         },
         {
-          colour: "Nature Green",
+          colour: "Green",
           variant: "2GB RAM 32GB Storage",
           pid: 12,
         },
@@ -232,7 +232,7 @@ module.exports = {
         "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase",
         "Box also includes: Power adapter, USB cable, SIM eject tool, Warranty card, User guide",
       ],
-      color: ["Sky Blue", "Sporty Orange"],
+      color: ["Blue", "Orange"],
       images: [
         {
           i1: "https://m.media-amazon.com/images/I/71A9Vo1BatL._SX425_.jpg",
@@ -245,22 +245,22 @@ module.exports = {
       ],
       pids: [
         {
-          colour: "Sky Blue",
+          colour: "Blue",
           variant: "4GB RAM 128GB Storage",
           pid: 13,
         },
         {
-          colour: "Sporty Orange",
+          colour: "Orange",
           variant: "4GB RAM 128GB Storage",
           pid: 14,
         },
         {
-          colour: "Sky Blue",
+          colour: "Blue",
           variant: "4GB RAM 64GB Storage",
           pid: 15,
         },
         {
-          colour: "Sporty Orange",
+          colour: "Orange",
           variant: "4GB RAM 64GB Storage",
           pid: 16,
         },

@@ -14,6 +14,7 @@ module.exports = {
       brand: "Apple",
       colour: "Blue",
       discount: 4,
+      variant: "128 GB",
     },
     {
       id: 2,
@@ -28,6 +29,7 @@ module.exports = {
       brand: "Apple",
       colour: "Black",
       discount: 4,
+      variant: "128 GB",
     },
     {
       id: 3,
@@ -43,6 +45,7 @@ module.exports = {
       brand: "Apple",
       colour: "Blue",
       discount: null,
+      variant: "256 GB",
     },
     {
       id: 4,
@@ -57,6 +60,7 @@ module.exports = {
       brand: "Apple",
       colour: "Black",
       discount: null,
+      variant: "256 GB",
     },
     {
       id: 5,
@@ -71,6 +75,7 @@ module.exports = {
       brand: "Apple",
       colour: "Red",
       discount: null,
+      variant: "128 GB",
     },
     {
       id: 6,
@@ -86,6 +91,7 @@ module.exports = {
       brand: "Apple",
       colour: "Black",
       discount: null,
+      variant: "128 GB",
     },
     {
       id: 7,
@@ -100,6 +106,7 @@ module.exports = {
       brand: "Apple",
       colour: "Black",
       discount: null,
+      variant: "256 GB",
     },
     {
       id: 8,
@@ -115,6 +122,7 @@ module.exports = {
       brand: "Apple",
       colour: "Black",
       discount: null,
+      variant: "128 GB",
     },
     {
       id: 9,
@@ -129,6 +137,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Black",
       discount: 20,
+      variant: "2GB RAM 32GB Storage",
     },
     {
       id: 10,
@@ -143,6 +152,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Green",
       discount: 20,
+      variant: "2GB RAM 32GB Storage",
     },
     {
       id: 11,
@@ -157,6 +167,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Black",
       discount: 21,
+      variant: "3GB RAM 32GB Storage",
     },
     {
       id: 12,
@@ -171,6 +182,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Green",
       discount: 21,
+      variant: "3GB RAM 32GB Storage",
     },
     {
       id: 13,
@@ -185,6 +197,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Blue",
       discount: 9,
+      variant: "4GB RAM 128GB Storage",
     },
     {
       id: 14,
@@ -199,6 +212,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Orange",
       discount: 9,
+      variant: "4GB RAM 128GB Storage",
     },
     {
       id: 15,
@@ -213,6 +227,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Blue",
       discount: 20,
+      variant: "4GB RAM 64GB Storage",
     },
     {
       id: 16,
@@ -227,6 +242,7 @@ module.exports = {
       brand: "Redmi",
       colour: "Orange",
       discount: 20,
+      variant: "4GB RAM 64GB Storage",
     },
     {
       id: 17,
@@ -241,6 +257,7 @@ module.exports = {
       brand: "Samsung",
       colour: "Black",
       discount: null,
+      variant: "4GB RAM 32GB Storage",
     },
     {
       id: 18,
@@ -256,6 +273,7 @@ module.exports = {
       brand: "Samsung",
       colour: "Blue",
       discount: null,
+      variant: "4GB RAM 32GB Storage",
     },
     {
       id: 19,
@@ -270,6 +288,7 @@ module.exports = {
       brand: "Samsung",
       colour: "Black",
       discount: 7,
+      variant: "6GB RAM 128GB Storage",
     },
     {
       id: 20,
@@ -285,12 +304,13 @@ module.exports = {
       brand: "Samsung",
       colour: "Blue",
       discount: 7,
+      variant: "6GB RAM 128GB Storage",
     },
   ],
   price: ["Under ₹1000", "₹5000 - ₹10000", "₹10000 - ₹20000", "Over ₹20000"],
   brands: ["Apple", "Redmi", "Samsung"],
   internal_memory: ["8 GB", "32 GB", "64 GB", "128 GB"],
   ram: ["8GB & above", "6GB", "4GB", "2GB"],
-  colour: ["Black", "Blue", "Orange"],
+  colour: ["Black", "Blue", "Orange","Green"],
   discount: ["0 - 10%", "10% - 20%", "30% - 40%"],
 };
