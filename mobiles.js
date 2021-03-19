@@ -237,7 +237,7 @@ module.exports = {
       yousave: null,
       image: "https://m.media-amazon.com/images/I/71QLvGIAq5L._SY606_.jpg",
       ram: 4,
-      internal_memory: 64,
+      internal_memory: 32,
       brand: "Samsung",
       colour: "Black",
       discount: null,
@@ -252,7 +252,7 @@ module.exports = {
       image:
         "https://images-na.ssl-images-amazon.com/images/I/71dujTTJDZL._SY445_.jpg",
       ram: 4,
-      internal_memory: 64,
+      internal_memory: 32,
       brand: "Samsung",
       colour: "Blue",
       discount: null,
@@ -290,7 +290,7 @@ module.exports = {
   price: ["Under ₹1000", "₹5000 - ₹10000", "₹10000 - ₹20000", "Over ₹20000"],
   brands: ["Apple", "Redmi", "Samsung"],
   internal_memory: ["8 GB", "32 GB", "64 GB", "128 GB"],
-  ram: ["8GB & above", "6GB", "4GB", "3GB"],
+  ram: ["8GB & above", "6GB", "4GB", "2GB"],
   colour: ["Black", "Blue", "Orange"],
   discount: ["0 - 10%", "10% - 20%", "30% - 40%"],
 };

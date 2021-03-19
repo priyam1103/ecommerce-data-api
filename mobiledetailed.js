@@ -44,6 +44,28 @@ module.exports = {
           i2: "https://m.media-amazon.com/images/I/71aR8gHZ6AL._SX466_.jpg",
         },
       ],
+      pids: [
+        {
+          colour: "Blue",
+          variant: "128 GB",
+          pid: 1,
+        },
+        {
+          colour: "Black",
+          variant: "128 GB",
+          pid: 2,
+        },
+        {
+          colour: "Blue",
+          variant: "256 GB",
+          pid: 3,
+        },
+        {
+          colour: "Black",
+          variant: "256 GB",
+          pid: 4,
+        },
+      ],
     },
     {
       id: 102,
@@ -87,6 +109,28 @@ module.exports = {
             "https://images-na.ssl-images-amazon.com/images/I/71i2XhHU3pL._SX466_.jpg",
           i2:
             "https://images-na.ssl-images-amazon.com/images/I/71Y5I3LK5CL._SX466_.jpg",
+        },
+      ],
+      pids: [
+        {
+          colour: "Red",
+          variant: "128 GB",
+          pid: 5,
+        },
+        {
+          colour: "Black",
+          variant: "128 GB",
+          pid: 6,
+        },
+        {
+          colour: "Red",
+          variant: "256 GB",
+          pid: 7,
+        },
+        {
+          colour: "Black",
+          variant: "256 GB",
+          pid: 8,
         },
       ],
     },
@@ -133,6 +177,28 @@ module.exports = {
             "https://images-na.ssl-images-amazon.com/images/I/81hyOE09RFL._SL1500_.jpg",
         },
       ],
+      pids: [
+        {
+          colour: "Midnight Black",
+          variant: "2GB RAM 32GB Storage",
+          pid: 9,
+        },
+        {
+          colour: "Nature Green",
+          variant: "2GB RAM 32GB Storage",
+          pid: 10,
+        },
+        {
+          colour: "Midnight Black",
+          variant: "3GB RAM 32GB Storage",
+          pid: 11,
+        },
+        {
+          colour: "Nature Green",
+          variant: "2GB RAM 32GB Storage",
+          pid: 12,
+        },
+      ],
     },
     {
       id: 104,
@@ -177,6 +243,28 @@ module.exports = {
           i2: "https://m.media-amazon.com/images/I/71snJRRLwPL._SY445_.jpg",
         },
       ],
+      pids: [
+        {
+          colour: "Sky Blue",
+          variant: "4GB RAM 128GB Storage",
+          pid: 13,
+        },
+        {
+          colour: "Sporty Orange",
+          variant: "4GB RAM 128GB Storage",
+          pid: 14,
+        },
+        {
+          colour: "Sky Blue",
+          variant: "4GB RAM 64GB Storage",
+          pid: 15,
+        },
+        {
+          colour: "Sporty Orange",
+          variant: "4GB RAM 64GB Storage",
+          pid: 16,
+        },
+      ],
     },
     {
       id: 105,
@@ -219,6 +307,28 @@ module.exports = {
             "https://images-na.ssl-images-amazon.com/images/I/71dujTTJDZL._SY445_.jpg",
           i2:
             "https://images-na.ssl-images-amazon.com/images/I/61GxwAghY%2BL._SY445_.jpg",
+        },
+      ],
+      pids: [
+        {
+          colour: "Black",
+          variant: "4GB RAM 32GB Storage",
+          pid: 17,
+        },
+        {
+          colour: "Blue",
+          variant: "4GB RAM 32GB Storage",
+          pid: 18,
+        },
+        {
+          colour: "Black",
+          variant: "6GB RAM 128GB Storage",
+          pid: 19,
+        },
+        {
+          colour: "Blue",
+          variant: "6GB RAM 128GB Storage",
+          pid: 20,
         },
       ],
     },
