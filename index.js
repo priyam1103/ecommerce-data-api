@@ -14,6 +14,23 @@ app.get("/api/products/mobiles", async function (req, res) {
     res.status(400).json({ message: "Please try again" });
   }
 });
+app.get("/api/products/mobile/:id", async function (req, res) {
+  try {
+    const { id } = req.params;
+    if (mobilelist.pids.includes(parseInt(id))) {
+      for (var i = 0; i < mobilelist.mobiles.length; i++) {
+        if (mobilelist.mobiles[i].id == id) {
+          res.status(200).json(mobilelist.mobiles[i]);
+        }
+      }
+    }else {
+      res.status(400).json({ message: "Mobile id is not valid" });
+    }
+    
+  } catch (err) {
+    res.status(400).json({ message: "Please try again" });
+  }
+});
 app.get("/api/products/mobiledetails/:pid", async function (req, res) {
   try {
       const { pid } = req.params;

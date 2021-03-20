@@ -307,6 +307,7 @@ module.exports = {
       variant: "6GB RAM 128GB Storage",
     },
   ],
+  pids:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
   price: ["Under ₹1000", "₹5000 - ₹10000", "₹10000 - ₹20000", "Over ₹20000"],
   brands: ["Apple", "Redmi", "Samsung"],
   internal_memory: ["8 GB", "32 GB", "64 GB", "128 GB"],
