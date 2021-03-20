@@ -195,7 +195,7 @@ module.exports = {
         },
         {
           colour: "Green",
-          variant: "2GB RAM 32GB Storage",
+          variant: "3GB RAM 32GB Storage",
           pid: 12,
         },
       ],
